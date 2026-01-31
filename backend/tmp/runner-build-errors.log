@@ -1,0 +1,12 @@
+# backend
+.\main.go:94:26: cannot use auth.OtpScreenHandler (value of type func(w http.ResponseWriter, r *http.Request)) as gin.HandlerFunc value in argument to authGroup.GET
+.\main.go:95:40: cannot use auth.RegistrationRoleHandler (value of type func(w http.ResponseWriter, r *http.Request)) as gin.HandlerFunc value in argument to authGroup.GET
+.\main.go:97:25: cannot use auth.R1Screen (value of type func(w http.ResponseWriter, r *http.Request)) as gin.HandlerFunc value in argument to authGroup.GET
+.\main.go:98:25: cannot use auth.R2Screen (value of type func(w http.ResponseWriter, r *http.Request)) as gin.HandlerFunc value in argument to authGroup.GET
+.\main.go:99:25: cannot use auth.R3Screen (value of type func(w http.ResponseWriter, r *http.Request)) as gin.HandlerFunc value in argument to authGroup.GET
+.\main.go:100:25: cannot use auth.R4Screen (value of type func(w http.ResponseWriter, r *http.Request)) as gin.HandlerFunc value in argument to authGroup.GET
+.\main.go:101:25: cannot use auth.R5Screen (value of type func(w http.ResponseWriter, r *http.Request)) as gin.HandlerFunc value in argument to authGroup.GET
+.\main.go:102:25: cannot use auth.R6Screen (value of type func(w http.ResponseWriter, r *http.Request)) as gin.HandlerFunc value in argument to authGroup.GET
+.\main.go:103:25: cannot use auth.R7Screen (value of type func(w http.ResponseWriter, r *http.Request)) as gin.HandlerFunc value in argument to authGroup.GET
+.\main.go:104:25: cannot use auth.R8Screen (value of type func(w http.ResponseWriter, r *http.Request)) as gin.HandlerFunc value in argument to authGroup.GET
+.\main.go:104:25: too many errors

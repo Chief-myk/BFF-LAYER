@@ -1,0 +1,37 @@
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      },
+      "ios": {
+        "buildConfiguration": "Release"
+      }
+    },
+    "preview3": {
+      "developmentClient": true,
+      "ios": {
+        "developmentClient": true
+      }
+    },
+    "preview4": {
+      "distribution": "internal",
+      "ios": {
+        "distribution": "internal"
+      }
+    },
+    "production": {
+      "ios": {
+        "buildConfiguration": "Release"
+      }
+    }
+  }
+}
